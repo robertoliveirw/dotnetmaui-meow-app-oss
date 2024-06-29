@@ -22,7 +22,7 @@
                         </VisualState>
                         <VisualState x:Name="Selected">
                             <VisualState.Setters>
-                                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource violet_12_light},Dark={StaticResource purple_9_dark}}}" />
+                                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource violet_12_light}, Dark={StaticResource purple_9_dark}}" />
                             </VisualState.Setters>
                         </VisualState>
                     </VisualStateGroup>
