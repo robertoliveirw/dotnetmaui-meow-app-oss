@@ -138,11 +138,28 @@ public static class APIConstants
 
 8. To commit your contributions, run `git commit -m "message"`, where message explains the changes made.
 
-9. Run `git push origin <your branch>` to push your changes.
+9. commit types:
 
-10. Lastly, create a pull request by going to your forked repo and clicking "Compare & pull request", then clicking "Create pull request".
+| **Type**   | **Description**                                                                  |
+| ---------- | -------------------------------------------------------------------------------- |
+| `feat`     | Introduces a new feature                                                         |
+| `fix`      | Fixes a bug                                                                      |
+| `docs`     | Changes only in documentation (README, wikis, comments, etc.)                    |
+| `style`    | Code formatting changes (spaces, semicolons, indentation — no code logic change) |
+| `refactor` | Code changes that neither fix a bug nor add a feature                            |
+| `perf`     | Changes that improve performance                                                 |
+| `test`     | Adding or updating tests                                                         |
+| `build`    | Changes that affect the build system or external dependencies                    |
+| `ci`       | Changes to CI/CD configuration files and scripts                                 |
+| `chore`    | Minor changes that don't modify src or test files (e.g., updating dependencies)  |
+| `revert`   | Reverts a previous commit                                                        |
 
-11. See if your changes were added! 
+
+10. Run `git push origin <your branch>` to push your changes.
+
+11. Lastly, create a pull request by going to your forked repo and clicking "Compare & pull request", then clicking "Create pull request".
+
+12. See if your changes were added! 
 
 ## MIT License
 
